@@ -1,0 +1,122 @@
+@media (max-width: 375px),(max-width: 760px){
+
+
+body{
+    font-family:'Lexend Deca', 'Big Shoulders Display',sans-serif;
+    font-size: 15px;
+}
+.main{
+    width:320px;
+    height:1502px;
+    margin: auto;
+}
+.container-one{
+    width:320px;
+    height:400px;
+    margin: 0 0 -1.2rem 0;
+    background-color: #E28625;
+    border-radius: 5px 5px 0 0;
+}
+.container-two{
+    width:320px;
+    height:400px;
+    background-color: #006971;
+}
+.container-three{
+    width:320px;
+    height:400px;
+    margin: -1.2rem 0 0 0;
+    background-color: #004140;
+    border-radius: 0 0 5px 5px;
+}
+img{
+    margin: 30px 0 10px 40px; 
+}
+h2{
+    margin: 10px 0 10px 45px;
+}
+p{
+    display: flex;
+    text-justify: space-evenly;
+    margin: 10px 45px 10px 45px;
+    line-height: 2;
+}
+button{
+    margin: 10px 0 10px 45px;
+    padding: 16px;
+    border-radius: 50px;
+    border: none;
+}
+.three{
+    color: #E28625;
+}
+.two{
+    color: #006971;
+}
+.one{
+    color: #004140;
+}
+}
+@media (min-width: 1440px), (min-width: 777px){
+    body{
+        font-family:'Lexend Deca', 'Big Shoulders Display',sans-serif;
+        font-size: 15px;
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        width:1000px;
+        height:430px;
+        margin: auto;
+        padding: 80px;
+       
+    }
+    .container-one{
+        width:320px;
+        height:400px;
+        margin: 0 0 -1.2rem 0;
+        background-color: #E28625;
+        border-radius: 0 0 0 0;
+    }
+    .container-two{
+        width:320px;
+        height:400px;
+        margin: 19px 0 0 0;
+        background-color: #006971;
+    }
+    .container-three{
+        width:320px;
+        height:400px;
+        margin: 19px 0 0 0;
+        background-color: #004140;
+        border-radius: 0 0 5px 5px;
+    }
+    img{
+        margin: 30px 0 10px 40px; 
+    }
+    h2{
+        margin: 10px 0 10px 45px;
+    }
+    p{
+        display: flex;
+        text-justify: space-evenly;
+        margin: 10px 45px 10px 45px;
+        line-height: 2;
+    }
+    button{
+        margin: 10px 0 10px 45px;
+        padding: 16px;
+        border-radius: 50px;
+        border: none;
+    }
+    .three{
+        color: #E28625;
+    }
+    .two{
+        color: #006971;
+    }
+    .one{
+        color: #004140;
+    }
+}
